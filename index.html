@@ -20,23 +20,7 @@
     .card:hover{
       transform: scale(1.05);
     }
-    /*
-      #separador{
-      width:100%;
-      overflow: hidden;
-    }
-   */
-   /*
- #separador .content{
-      background: url(assets/img/bg-03.png);
-      margin-left: -5%;
-      border-top-left-radius: 50%;
-      border-top-right-radius: 50%;
-      width: 110%;
-      height: 100px;
-    }
-    */
-
+    
     #personajes{
 
       background: url(assets/img/bg-01.png), url(assets/img/bg-03.png);
@@ -71,6 +55,18 @@
         background-color: rgb(250, 122, 3);
         background-size: 50px;
        }
+      #cumpleaños{
+        position: relative;
+        margin-top:-20px;
+        z-index: 10;
+        box-shadow: 0 0 10px rgb(0,0,0);
+
+
+      }
+     #cumpleaños img{
+       margin-top: -30px;
+
+     }
 
 
   </style>
@@ -128,11 +124,12 @@
       </button>
     </div>
   </header>
-<section id="riborn" >
-  <div id="cumpleaños" class="container">
-    <div class="row ">
+  <!--separador-->
+<section id="riborn" class="bg-danger" >
+  <div id="cumpleaños" class="container bg-danger w-50 px-5">
+    <div class="row align-items-center">
       <div class="col-sm-12 col-md-12 col-lg-6 p-3 text-center">
-<img src="assets/img/image01.PNG" class="alingn-item-center w-100">
+<img src="assets/img/image01.PNG" class="alingn-item-center w-75">
 
       
       </div>
